@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para las secciones comunes */
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+
+}
+
+#inicio {
+    display: flex;
+    background-color: darkgray;
+}
+
+
+
+#inicio .contenido-inicio {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#nuestra_historia {
+    background-color: #ececec;
+}
+
+#rutinas {
+    background-color: #e6f7ff;
+}
+
+#rutina .contenido-rutina {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contacto {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para la sección de productos */
+
+#productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+}
+
+.producto {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    margin: auto;
+    margin-bottom: 5px;
+    color: #777;
+    font-weight: bold;
+}
+
+.producto p {
+
+    margin: 0;
+    color: #777;
+    font-weight: bold;
+}
+
+.producto h2 {
+    text-align: center;
+}
+
+.contenedor-productos {
+    max-width: 1200px; /* Puedes ajustar el valor según sea necesario */
+    margin: 0 auto; /* Esto centra el contenedor horizontalmente */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
